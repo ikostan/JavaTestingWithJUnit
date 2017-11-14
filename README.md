@@ -14,4 +14,10 @@ Creating basic unit tests <br />
 Testing for exception handling <br />
 Creating parameterized tests
 
+### Screenshot #1:
+![GUI](https://github.com/ikostan/JavaTestingWithJUnit/blob/master/img/ok.PNG?raw=true "GUI screenshot")
+
+### Screenshot #2:
+![GUI](https://github.com/ikostan/JavaTestingWithJUnit/blob/master/img/failure.PNG?raw=true "GUI screenshot")
+
 ### Source: https://www.lynda.com/Java-tutorials/Welcome/520534/548571-4.html?
