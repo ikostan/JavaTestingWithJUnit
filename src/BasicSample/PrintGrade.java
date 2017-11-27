@@ -1,3 +1,4 @@
+package BasicSample;
 
 public class PrintGrade {
 	
