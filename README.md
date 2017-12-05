@@ -18,8 +18,6 @@ and it should be part of every Java developer's toolbox. One of the benefits of 
 ### Screenshot #2:
 ![GUI](https://github.com/ikostan/JavaTestingWithJUnit/blob/master/img/failure.PNG?raw=true "GUI screenshot")
 
-### Source: https://www.lynda.com/Java-tutorials/Welcome/520534/548571-4.html?
-
 ## Basic Unit Test:
 - As a general rule, a test name should explain what the test does. If that is done correctly, reading the action implementation code can be avoided. When you do need to create a unit test, you can follow these simple steps. Annotate a method with @Test.
 
@@ -95,4 +93,5 @@ public class TestSuiteTest {
 }
 ```
 
+### Source: https://www.lynda.com/Java-tutorials/Welcome/520534/548571-4.html?
  
