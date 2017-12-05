@@ -21,3 +21,37 @@ Creating parameterized tests
 ![GUI](https://github.com/ikostan/JavaTestingWithJUnit/blob/master/img/failure.PNG?raw=true "GUI screenshot")
 
 ### Source: https://www.lynda.com/Java-tutorials/Welcome/520534/548571-4.html?
+
+## Basic Unit Test:
+- As a general rule, a test name should explain what the test does. If that is done correctly, reading the action implementation code can be avoided. When you do need to create a unit test, you can follow these simple steps. Annotate a method with @Test.
+
+- Make sure to import org.junit.Assert.* and then add your assert statements to test the program logic. An example might be the assert equals, which takes two values, the expected value and the result of testing the program class.
+
+### Step by step:
+* Annotate a method with @Test
+* Import org.junit.Assert.*;
+* Add assert statement to test program logic
+
+### Example:
+'''
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class DivideTest {
+
+	@Test
+	public void test() {
+		
+		Divide divide = new Divide();
+		
+		int result = divide.quotient(12, 2);
+		assertEquals("The test is failed!", 6, result);
+		
+		int result2 = divide.quotient(12, 0);
+		assertEquals("The test is failed!", 0, result2);
+	}
+}
+
+'''
+ 

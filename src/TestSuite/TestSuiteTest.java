@@ -40,6 +40,5 @@ public class TestSuiteTest {
     @Test
     public void testMain() {
    
-    }
-    
+    }   
 }
