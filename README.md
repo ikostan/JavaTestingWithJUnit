@@ -33,7 +33,7 @@ Creating parameterized tests
 * Add assert statement to test program logic
 
 ### Example:
-'''
+```
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -53,5 +53,5 @@ public class DivideTest {
 	}
 }
 
-'''
+```
  
