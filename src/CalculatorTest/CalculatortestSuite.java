@@ -27,7 +27,8 @@ import TestSuite.SuiteTest2;
   DivideTest.class,
   MultiplyTest.class, 
   SubtractTest.class,
-  SumTest.class
+  SumTest.class,
+  VariousTest.class
 })		
 
 public class CalculatortestSuite {
@@ -60,10 +61,4 @@ public class CalculatortestSuite {
 	public void tearDown() throws Exception {
 	}
 	
-	//Exception Handling
-	//@Test(expected = IndexOutOfBoundsException.class)
-	public void testMain(){
-		
-		new ArrayList<Object>().get(0);
-	}
 }

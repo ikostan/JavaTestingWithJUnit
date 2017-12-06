@@ -10,6 +10,7 @@ and it should be part of every Java developer's toolbox. One of the benefits of 
 * Using JUnit with different Eclipse IDEs 
 * Creating basic unit tests 
 * Testing for exception handling 
+* How to ignore tests
 * Creating parameterized tests
 
 ### Screenshot #1:

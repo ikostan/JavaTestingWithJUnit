@@ -9,5 +9,10 @@ public class Sum {
 		for(int num:nums)
 			sum +=num;
 		return sum;
-	}  
+	} 
+    
+    public static int add(int a, int b)
+    {
+        return a+b;
+    }
 }
