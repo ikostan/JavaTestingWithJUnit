@@ -1,8 +1,11 @@
-package Calculator;
+package CalculatorTest;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import Calculator.Divide;
+
 
 public class DivideTest {
 
@@ -16,5 +19,8 @@ public class DivideTest {
 		
 		int result2 = divide.quotient(12, 0);
 		assertEquals("The test is failed!", 0, result2);
+		
+		int result3 = divide.quotient(12, -2);
+		assertEquals("The test is failed!", -6, result3);
 	}
 }
