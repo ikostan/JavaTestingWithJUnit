@@ -94,4 +94,6 @@ public class TestSuiteTest {
 ```
 
 ### Source: https://www.lynda.com/Java-tutorials/Welcome/520534/548571-4.html?
+
+### Assert (JUnit API): http://junit.org/junit4/javadoc/4.8/org/junit/Assert.html
  
