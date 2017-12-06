@@ -23,4 +23,11 @@ public class DivideTest {
 		int result3 = divide.quotient(12, -2);
 		assertEquals("The test is failed!", -6, result3);
 	}
+	
+	//Exception Handling
+	@Test(expected = ArithmeticException.class)
+	public void testDevideByZero(){
+			
+		int x = 10/0;
+	}
 }

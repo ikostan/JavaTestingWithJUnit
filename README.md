@@ -7,7 +7,7 @@ and it should be part of every Java developer's toolbox. One of the benefits of 
 ## Topics include:
 
 * Comparing values with assertions 
-* Using JUnit with different Java IDEs 
+* Using JUnit with different Eclipse IDEs 
 * Creating basic unit tests 
 * Testing for exception handling 
 * Creating parameterized tests

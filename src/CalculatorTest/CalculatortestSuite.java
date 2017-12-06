@@ -5,6 +5,8 @@ package CalculatorTest;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -56,5 +58,12 @@ public class CalculatortestSuite {
 	 */
 	@After
 	public void tearDown() throws Exception {
+	}
+	
+	//Exception Handling
+	//@Test(expected = IndexOutOfBoundsException.class)
+	public void testMain(){
+		
+		new ArrayList<Object>().get(0);
 	}
 }
